@@ -1,6 +1,11 @@
 # Shopping
 
 Basic of Angular 7: components, binding, directives, eventemitters, output and input decorators, adding bootstrap to angular.
+https://angular.io/guide/displaying-data
+https://angular.io/guide/component-interaction
+https://angular.io/guide/lifecycle-hooks
+https://angular.io/guide/user-input
+https://angular.io/guide/attribute-directives
 
 ## Development server
 
