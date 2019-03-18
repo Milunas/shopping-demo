@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p app-basic-highlight>Style me with my basic directive!</p>
+      <p app-better-highlight>Style me with my better directive!</p>
+      <p app-best-highlight>Style me with my best directive!</p>
+      <p app-binding-highlight [defaultColor]="'yellow'" [highlightColor]="'red'">Style me with my binding directive!</p>
+      <ul class="list-group">
+          <li class="list-group-item" *ngFor = "let number of numbers">
+            <div *appUnless="number%2">
+                {{number}}
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>
